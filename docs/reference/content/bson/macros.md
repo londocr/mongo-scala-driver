@@ -102,7 +102,7 @@ val personCodecProvider = Macros.createCodecProviderIgnoreNone[Person]()
 
 ## Alternative field names
 
-The [`BsonProperty`]({{< apiref "org/mongodb/scala/bson/annotations$$BsonProperty" >}}) annotation can be used to configure a the bson 
+The [`BsonProperty`]({{< apiref "org/mongodb/scala/bson/annotations/BsonProperty" >}}) annotation can be used to configure a the bson 
 field key to be used for a given property. In the following example uses the `BsonProperty` annotation to change how the `firstName` 
 property is stored:
 
